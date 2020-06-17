@@ -1,4 +1,4 @@
-import {NodeSelection} from "/prosemirror/dist/prosemirror-state.es.js"
+import {NodeSelection} from "/prosemirror/devimports/prosemirror-state.es.js"
 
 import {scrollRectIntoView, posAtCoords, coordsAtPos, endOfTextblock, storeScrollPos,
         resetScrollPos, focusPreventScroll} from "./domcoords.js"

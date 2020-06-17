@@ -1,4 +1,4 @@
-import {Selection, NodeSelection, TextSelection} from "/prosemirror/dist/prosemirror-state.es.js"
+import {Selection, NodeSelection, TextSelection} from "/prosemirror/devimports/prosemirror-state.es.js"
 import browser from "./browser.js"
 import {domIndex, selectionCollapsed} from "./dom.js"
 

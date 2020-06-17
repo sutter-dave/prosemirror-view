@@ -1,5 +1,5 @@
-import {Fragment, DOMParser} from "/prosemirror/dist/prosemirror-model.es.js"
-import {Selection, TextSelection} from "/prosemirror/dist/prosemirror-state.es.js"
+import {Fragment, DOMParser} from "/prosemirror/devimports/prosemirror-model.es.js"
+import {Selection, TextSelection} from "/prosemirror/devimports/prosemirror-state.es.js"
 
 import {selectionBetween, selectionFromDOM, selectionToDOM} from "./selection.js"
 import {selectionCollapsed, keyEvent} from "./dom.js"

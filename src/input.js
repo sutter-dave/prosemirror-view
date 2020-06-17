@@ -1,6 +1,6 @@
-import {Selection, NodeSelection, TextSelection} from "/prosemirror/dist/prosemirror-state.es.js"
-import {dropPoint} from "/prosemirror/dist/prosemirror-transform.es.js"
-import {Slice} from "/prosemirror/dist/prosemirror-model.es.js"
+import {Selection, NodeSelection, TextSelection} from "/prosemirror/devimports/prosemirror-state.es.js"
+import {dropPoint} from "/prosemirror/devimports/prosemirror-transform.es.js"
+import {Slice} from "/prosemirror/devimports/prosemirror-model.es.js"
 
 import browser from "./browser.js"
 import {captureKeyDown} from "./capturekeys.js"
