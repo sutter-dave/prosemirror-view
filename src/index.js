@@ -1,18 +1,18 @@
-import {NodeSelection} from "prosemirror-state"
+import {NodeSelection} from "/prosemirror/dist/prosemirror-state.es.js"
 
 import {scrollRectIntoView, posAtCoords, coordsAtPos, endOfTextblock, storeScrollPos,
-        resetScrollPos, focusPreventScroll} from "./domcoords"
-import {docViewDesc} from "./viewdesc"
-import {initInput, destroyInput, dispatchEvent, ensureListeners} from "./input"
-import {selectionToDOM, anchorInRightPlace, syncNodeSelection} from "./selection"
-import {Decoration, viewDecorations} from "./decoration"
-import browser from "./browser"
+        resetScrollPos, focusPreventScroll} from "./domcoords.js"
+import {docViewDesc} from "./viewdesc.js"
+import {initInput, destroyInput, dispatchEvent, ensureListeners} from "./input.js"
+import {selectionToDOM, anchorInRightPlace, syncNodeSelection} from "./selection.js"
+import {Decoration, viewDecorations} from "./decoration.js"
+import browser from "./browser.js"
 
-export {Decoration, DecorationSet} from "./decoration"
+export {Decoration, DecorationSet} from "./decoration.js"
 
 // Exported for testing
-export {serializeForClipboard as __serializeForClipboard, parseFromClipboard as __parseFromClipboard} from "./clipboard"
-export {endComposition as __endComposition} from "./input"
+export {serializeForClipboard as __serializeForClipboard, parseFromClipboard as __parseFromClipboard} from "./clipboard.js"
+export {endComposition as __endComposition} from "./input.js"
 
 // ::- An editor view manages the DOM structure that represents an
 // editable document. Its state and behavior are determined by its

@@ -1,7 +1,7 @@
-import {TextSelection, NodeSelection} from "prosemirror-state"
+import {TextSelection, NodeSelection} from "/prosemirror/dist/prosemirror-state.es.js"
 
-import browser from "./browser"
-import {selectionCollapsed, isEquivalentPosition, domIndex, isOnEdge} from "./dom"
+import browser from "./browser.js"
+import {selectionCollapsed, isEquivalentPosition, domIndex, isOnEdge} from "./dom.js"
 
 export function selectionFromDOM(view, origin) {
   let domSel = view.root.getSelection(), doc = view.state.doc

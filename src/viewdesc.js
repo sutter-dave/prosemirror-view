@@ -1,8 +1,8 @@
-import {DOMSerializer, Fragment, Mark} from "prosemirror-model"
-import {TextSelection} from "prosemirror-state"
+import {DOMSerializer, Fragment, Mark} from "/prosemirror/dist/prosemirror-model.es.js"
+import {TextSelection} from "/prosemirror/dist/prosemirror-state.es.js"
 
-import {domIndex, isEquivalentPosition, nodeSize} from "./dom"
-import browser from "./browser"
+import {domIndex, isEquivalentPosition, nodeSize} from "./dom.js"
+import browser from "./browser.js"
 
 // NodeView:: interface
 //

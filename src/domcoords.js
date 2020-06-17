@@ -1,5 +1,5 @@
-import {nodeSize, textRange, parentNode} from "./dom"
-import browser from "./browser"
+import {nodeSize, textRange, parentNode} from "./dom.js"
+import browser from "./browser.js"
 
 function windowRect(doc) {
   return {left: 0, right: doc.documentElement.clientWidth,

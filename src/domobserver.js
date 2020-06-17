@@ -1,6 +1,6 @@
-import browser from "./browser"
-import {domIndex, isEquivalentPosition} from "./dom"
-import {hasFocusAndSelection, hasSelection, selectionToDOM} from "./selection"
+import browser from "./browser.js"
+import {domIndex, isEquivalentPosition} from "./dom.js"
+import {hasFocusAndSelection, hasSelection, selectionToDOM} from "./selection.js"
 
 const observeOptions = {
   childList: true,

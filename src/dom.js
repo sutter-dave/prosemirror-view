@@ -1,4 +1,4 @@
-import browser from "./browser"
+import browser from "./browser.js"
 
 export const domIndex = function(node) {
   for (var index = 0;; index++) {

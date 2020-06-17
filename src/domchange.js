@@ -1,9 +1,9 @@
-import {Fragment, DOMParser} from "prosemirror-model"
-import {Selection, TextSelection} from "prosemirror-state"
+import {Fragment, DOMParser} from "/prosemirror/dist/prosemirror-model.es.js"
+import {Selection, TextSelection} from "/prosemirror/dist/prosemirror-state.es.js"
 
-import {selectionBetween, selectionFromDOM, selectionToDOM} from "./selection"
-import {selectionCollapsed, keyEvent} from "./dom"
-import browser from "./browser"
+import {selectionBetween, selectionFromDOM, selectionToDOM} from "./selection.js"
+import {selectionCollapsed, keyEvent} from "./dom.js"
+import browser from "./browser.js"
 
 // Note that all referencing and parsing is done with the
 // start-of-operation selection and document, since that's the one

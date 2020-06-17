@@ -1,14 +1,14 @@
-import {Selection, NodeSelection, TextSelection} from "prosemirror-state"
-import {dropPoint} from "prosemirror-transform"
-import {Slice} from "prosemirror-model"
+import {Selection, NodeSelection, TextSelection} from "/prosemirror/dist/prosemirror-state.es.js"
+import {dropPoint} from "/prosemirror/dist/prosemirror-transform.es.js"
+import {Slice} from "/prosemirror/dist/prosemirror-model.es.js"
 
-import browser from "./browser"
-import {captureKeyDown} from "./capturekeys"
-import {readDOMChange} from "./domchange"
-import {parseFromClipboard, serializeForClipboard} from "./clipboard"
-import {DOMObserver} from "./domobserver"
-import {selectionBetween, selectionToDOM, selectionFromDOM} from "./selection"
-import {keyEvent} from "./dom"
+import browser from "./browser.js"
+import {captureKeyDown} from "./capturekeys.js"
+import {readDOMChange} from "./domchange.js"
+import {parseFromClipboard, serializeForClipboard} from "./clipboard.js"
+import {DOMObserver} from "./domobserver.js"
+import {selectionBetween, selectionToDOM, selectionFromDOM} from "./selection.js"
+import {keyEvent} from "./dom.js"
 
 // A collection of DOM events that occur within the editor, and callback functions
 // to invoke when the event fires.
